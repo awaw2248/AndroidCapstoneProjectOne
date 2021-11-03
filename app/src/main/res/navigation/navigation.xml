@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/navigation"
-    app:startDestination="@id/addItemFragment">
+    app:startDestination="@id/taskListFragment">
 
     <fragment
         android:id="@+id/addItemFragment"
@@ -14,7 +14,11 @@
         android:id="@+id/itemDetailsFragment"
         android:name="com.example.androidcapstone.view.ItemDetailsFragment"
         android:label="fragment_item_details"
-        tools:layout="@layout/fragment_item_details" />
+        tools:layout="@layout/fragment_item_details" >
+        <action
+            android:id="@+id/action_itemDetailsFragment_to_edit_Todo_Fragment"
+            app:destination="@id/edit_Todo_Fragment" />
+    </fragment>
     <fragment
         android:id="@+id/taskListFragment"
         android:name="com.example.androidcapstone.view.TaskListFragment"
@@ -26,5 +30,14 @@
         <action
             android:id="@+id/action_taskListFragment_to_itemDetailsFragment"
             app:destination="@id/itemDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/edit_Todo_Fragment"
+        android:name="com.example.androidcapstone.view.Edit_Todo_Fragment"
+        android:label="fragment_edit__todo_"
+        tools:layout="@layout/fragment_edit_todo" >
+        <action
+            android:id="@+id/action_edit_Todo_Fragment_to_taskListFragment"
+            app:destination="@id/taskListFragment" />
     </fragment>
 </navigation>

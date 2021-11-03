@@ -63,4 +63,6 @@ dependencies {
     // To use activityViewModels to initialized viewModel you need the following dependency
     implementation "androidx.fragment:fragment-ktx:1.3.6"
 
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.2'
+
 }
