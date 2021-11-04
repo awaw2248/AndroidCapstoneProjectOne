@@ -36,7 +36,6 @@ _**User Story**: As a user of to-do-app, the need to simplfiy the process of add
 4. _Google maps feature can be added._
 
 ## Screenshots:
-
-<a href="https://ibb.co/kK3R7MB"><img src="https://i.ibb.co/Y2DzCbQ/Screenshot-20211104-044109-Android-Capstone.jpg" alt="Screenshot-20211104-044109-Android-Capstone" border="0"></a>
-<a href="https://ibb.co/FXCRjxg"><img src="https://i.ibb.co/68Ljfng/Screenshot-20211104-044722-Android-Capstone.jpg" alt="Screenshot-20211104-044722-Android-Capstone" border="0"></a>
-<a href="https://ibb.co/tbqYk1L"><img src="https://i.ibb.co/xM1zPrF/Screenshot-20211104-044746-Android-Capstone.jpg" alt="Screenshot-20211104-044746-Android-Capstone" border="0"></a>
+![TaskLists](https://github.com/awaw2248/AndroidCapstone/blob/master/TasksList.jpg)
+![TaskDetails](https://github.com/awaw2248/AndroidCapstone/blob/master/TasksDetails.jpg)
+![TaskAdd](https://github.com/awaw2248/AndroidCapstone/blob/master/AddTasks.jpg)
