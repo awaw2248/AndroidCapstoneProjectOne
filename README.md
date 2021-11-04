@@ -1,4 +1,5 @@
-# AndroidCapstone- to do app
+# AndroidCapstone- "To Do App"
+![Tuwaiq Academy](https://github.com/awaw2248/AndroidCapstone/blob/master/Tuwaiq%20image.JPG)
 
 ## List technologies used:
 1. **Room Database**
@@ -11,7 +12,6 @@
 8. **Figma**
 
 ## Link to wireframes and user stories:
-[Figma Inspiring Design](http://https://www.figma.com/file/NlGazZbbu6U3EbhZAIgQ5A/Learn-UIUX-%3A-To-Do-List-App-(Community)?node-id=0%3A1)
 _**User Story**: As a user of to-do-app, the need to simplfiy the process of adding and deleting tasks must be simple and easy enough so that it becomes not a task itself._ 
 
 ## Document your planning and tell a story about your development process and problem-solving strategy:
